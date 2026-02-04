@@ -1,5 +1,6 @@
 import numpy as np
-arr=np.array([10,20,30])
+ele=list(map(int,input("Enter the elements of the array separated by space: ").split()))
+arr=np.array(ele)
 print(arr)
 print(np.max(arr))
 print(np.min(arr))

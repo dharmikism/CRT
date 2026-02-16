@@ -16,7 +16,6 @@ for i in range(2,n):
     print(c,end=" ")
     a=b 
     b=c 
-'''
 
 a,b,c=map(int,input().split())
 if b-a==c-b:
@@ -27,3 +26,10 @@ elif a+b==c:
     print("FIB")
 elif a**2+b**2==c**2:
     print("Pythagorean Triplet")
+'''
+l=[0,1]
+n=int(input())
+for i in range(2,n):
+    c=l[i-2]+l[i-1]
+    l.append(c)
+print(*l) 

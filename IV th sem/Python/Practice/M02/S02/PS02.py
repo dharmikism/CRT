@@ -29,7 +29,6 @@ for i in range(a, b + 1):
             break
     if cond:
         print(i, end=" ")
-'''
 
 def fact(n):
     if n==1:
@@ -38,3 +37,4 @@ def fact(n):
         return n*fact(n-1)
     
 print(fact(int(input())))
+'''

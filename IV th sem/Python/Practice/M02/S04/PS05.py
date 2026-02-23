@@ -31,7 +31,7 @@ for i in range(n):
 
 
 Problem : hollow circle
-'''
+
 n=int(input())
 for i in range(n):
     for j in range(n):
@@ -42,4 +42,18 @@ for i in range(n):
         else:
             print(" ",end=" ")
     print()
+
+Problem : Hollow Square
+'''
+
+n=int(input())
+for i in range(n):
+    for j in range(n):
+        if i==0 or i==n-1 or j==0 or j==n-1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+    
 

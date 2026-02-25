@@ -21,7 +21,6 @@ for i in range(1,n):
         print(li[i][j],end=" ")
     print()
 
-'''
 
 
 n=int(input())
@@ -32,3 +31,9 @@ for i in range(1,n+1):
         print("*"*(i)+" "*(n-2*(i))+"*"*(i))
     else:
         print("*"*(n-i)+" "*(2*(i)-n)+"*"*(n-i))
+
+'''
+x=[1,2]
+y=x
+x.append(3)
+print(x)
